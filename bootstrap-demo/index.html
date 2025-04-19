@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+        <div class="container">
+          <a class="navbar-brand" href="#">MyWebsite</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main content area -->
+    <main class="container">
+      <div class="row">
+        <!-- Main content section -->
+        <section class="col-md-8">
+          <h1>Main Content</h1>
+          <p>
+            This is the main content area that takes up 8 columns on medium
+            screens and larger.
+          </p>
+
+          <!-- Alert component -->
+          <div class="alert alert-success" role="alert">
+            <strong>Success!</strong> This is a bootstrap alert!
+          </div>
+
+          <article>
+            <h2>Article Title</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in
+              dui mauris.
+            </p>
+            <p>Additional information about this topic goes here.</p>
+
+            <!-- Button component -->
+            <button class="btn btn-info">Learn More</button>
+          </article>
+        </section>
+
+        <!-- Sidebar -->
+        <aside class="col-md-4 bg-warning rounded">
+          <h2>Sidebar</h2>
+          <p>This sidebar takes up 4 columns on medium screens and larger.</p>
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title">Featured</h3>
+              <p class="card-text">
+                Check out our latest updates and features.
+              </p>
+              <button class="btn btn-outline-secondary">View Details</button>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </main>
+
+    <!-- Footer section -->
+    <footer class="container mt-4 py-3 border-top">
+      <p class="text-center text-muted">
+        &copy; 2025 Blessings Chisanga. All rights reserved.
+      </p>
+    </footer>
+
+    <!-- Bootstrap JS (needed for responsive navbar) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
